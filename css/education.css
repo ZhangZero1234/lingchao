@@ -1,0 +1,32 @@
+	.eduTop{
+		background: rgba(0,0,0,0);
+	}
+	.imgBox{
+		
+		background: rgba(0,0,0,0.6);
+		width: 254px;
+		height: 180px;
+		margin: 0 auto;
+	}
+	.eduMiddle{
+		background: rgba(255,255,255,0.6);
+	}
+	.eduMiddle .container{
+		height: 100%;
+	}
+	.eduMiddle .container .row{
+		/*margin-top: 20px;*/
+		/*position: relative;*/
+		/*top: 20px;*/
+	}
+	.edu{
+		margin-top: 30px;
+	}
+	.eduCover{
+		display: none;
+		background: rgba(255,255,255,0.2);
+		position: absolute;
+		z-index: 2;
+		width: 254px;
+		height: 180px;
+	}

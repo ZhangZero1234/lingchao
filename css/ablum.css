@@ -1,0 +1,12 @@
+.ablumTop{
+	background: rgba(0,0,0,0);
+}
+.ablumMiddle{
+	background: rgba(0,0,0,.6);
+}
+.ablumBottom .row{
+	margin: 0 auto;
+}
+.cards_wrap{
+	margin: 0 auto;
+}

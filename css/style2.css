@@ -1,0 +1,59 @@
+.softTop{
+	background: rgba(0,0,0,0);
+}
+.softTop .container{
+	height: inherit;
+}
+.softTop .row{
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.softMiddle{
+	background: rgba(0,0,0,.6);
+}
+.softMiddle .container{
+	height: 100%;
+	
+}
+
+.softMiddle .container .row{
+
+	margin: 0 auto;
+	margin-top: 200px;
+}
+.softMiddle .container .row h1,h3{
+	color: #fff;
+}
+.softMiddle .container .row p{
+	color: #ccc;
+}
+.softBottom{
+	background: rgba(255,255,255,0.6);
+}
+.swiper-container {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .swiper-slide {
+    	
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }

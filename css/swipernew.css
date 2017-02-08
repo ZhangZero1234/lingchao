@@ -1,0 +1,126 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    .swiper-slide1{
+        background: rgba(0,0,0,0);
+    }
+    .swiper-slide2{
+        background: rgba(0,0,0,0.6);
+    }
+    .swiper-pagination{
+        display: none;
+    }
+
+
+
+    /************************************************/
+    .am-btn-myself {
+  padding:18px 30px;
+  color: #fff;
+  background-color: rgba(0,0,0,0);
+  border-color: #fff;
+  border-radius: 0;
+  border-width: 3px;
+  font-size: 14px;
+  font-weight: bold;
+}
+@media(max-width: 364px){
+  .am-btn-myself {
+  padding:14px 18px;
+  color: #fff;
+  background-color: rgba(0,0,0,0);
+  border-color: #fff;
+  border-radius: 0;
+  border-width: 3px;
+  font-size: 14px;
+  font-weight: bold;
+}
+}
+.am-btn-white{
+ background-color: rgba(255,255,255,1);
+ color: #000;
+ border-color: #fff;
+ margin-left: 20px;
+}
+
+.am-btn-myself:hover,
+.am-btn-myself:focus,
+.am-btn-myself:active,
+.am-btn-myself.am-active,
+.am-active .am-dropdown-toggle.am-btn-myself {
+  color: #fff;
+  background-color: #f1c11a;
+  border-color: #f1c11a;
+}
+.am-btn-myself:active,
+.am-btn-myself.am-btn-active,
+.am-active .am-dropdown-toggle.am-btn-myself {
+  background: none;
+}
+.am-btn-myself.am-disabled,
+.am-btn-myself[disabled],
+fieldset[disabled] .am-btn-myself,
+.am-btn-myself.am-disabled:hover,
+.am-btn-myself[disabled]:hover,
+fieldset[disabled] .am-btn-myself:hover,
+.am-btn-myself.am-disabled:focus,
+.am-btn-myself[disabled]:focus,
+fieldset[disabled] .am-btn-myself:focus,
+.am-btn-myself.am-disabled:active,
+.am-btn-myself[disabled]:active,
+fieldset[disabled] .am-btn-myself:active,
+.am-btn-myself.am-disabled.am-btn-active,
+.am-btn-myself[disabled].am-btn-active,
+fieldset[disabled] .am-btn-myself.am-btn-active {
+    color: #fff;
+  background-color: #e6e6e6;
+  border-color: #e6e6e6;
+}
+.am-btn-group .am-btn-myself,
+.am-btn-group-stacked .am-btn-myself {
+  border-color: #d9d9d9;
+  color: #fff;
+}
+.am-header-default .am-header-nav .am-btn-myself {
+  
+
+}
+/****************************************************/
